@@ -1,0 +1,23 @@
+# Python Virtual Environment
+# Never commit your virtual environment folder.
+venv/
+
+# User-Generated Data Files
+# These are created and modified by the app during runtime.
+tasks.db
+state.json
+
+# Environment File with Secrets
+# The .env file contains sensitive information and is user-specific.
+.env
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE-specific folders
+.idea/
+.vscode/
+.code-workspace
